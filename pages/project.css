@@ -1,0 +1,84 @@
+body {
+  font-weight: 900;
+}
+.gallery {
+  color: black;
+}
+
+.gallery :hover {
+  color: rgb(58, 106, 135);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.projects {
+  color: rgb(58, 106, 135);
+}
+
+.project-title {
+  margin-left: 3%;
+  font-size: 1fr;
+  font-weight: 400;
+}
+
+.project-text {
+  display: grid;
+  margin-left: 3%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  max-width: 1500px;
+}
+
+.project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.project-title {
+  animation-duration: 1.2s;
+  animation-name: animation7;
+}
+
+@keyframes animation7 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 3%;
+  }
+}
+
+.project-text {
+  animation-duration: 3s;
+  animation-name: animation8;
+}
+
+@keyframes animation8 {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
+
+#phones {
+  width: 60%;
+}
+
+.project-image {
+  animation-duration: 1.3s;
+  animation-name: animation9;
+}
+
+@keyframes animation9 {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
